@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
-    
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://shemas.android.com/apk/res-auto">
+    <item android:id="@+id/more"
+        android:title="Tytuł"
+        android:icon="@drawable/baseline_reply_24"
+        app:showAsAction="ifRoom">
+    </item>
+    <item android:id="@+id/more2" android:title="Oceny"></item>
+    <item android:id="@+id/more3" android:title="Dane"></item>
 </menu>
