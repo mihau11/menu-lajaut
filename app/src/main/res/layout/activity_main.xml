@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical" >
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:visibility="invisible"
+        />
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:text="Login:"></TextView>
+    <EditText
+        android:id="@+id/log"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="login"
+        android:inputType="textPersonName" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Hasło:"></TextView>
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="password"
+        android:inputType="textPassword"/>
+    <Button
+        android:id="@+id/but"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+</LinearLayout>

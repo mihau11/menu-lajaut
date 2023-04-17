@@ -1,0 +1,24 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <TextView
+        android:textSize="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nick: mihauek11"
+        android:layout_gravity="start"></TextView>
+    <TextView
+        android:textSize="100px"
+        android:textStyle="italic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Imię: Michał"
+        android:layout_gravity="center"></TextView>
+    <TextView
+        android:textStyle="bold"
+        android:textSize="10mm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Klasa: 3PR"
+        android:layout_gravity="bottom"></TextView>
+</FrameLayout>
